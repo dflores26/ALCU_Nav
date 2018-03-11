@@ -1,0 +1,6 @@
+12:37:00 **** Incremental Build of configuration Debug for project gps_test ****
+make all 
+make: Nothing to be done for 'all'.
+
+12:37:00 Build Finished (took 104ms)
+
