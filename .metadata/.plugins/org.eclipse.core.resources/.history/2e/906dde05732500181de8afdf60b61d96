@@ -1,0 +1,14 @@
+/*
+ * gpio.h
+ *
+ *  Created on: Jan 31, 2018
+ *  Author: David R. Flores
+ */
+
+#ifndef GPIO_CB_H_
+#define GPIO_CB_H_
+
+void gpio_event_callback(void *user_data);
+void gpio_setup(void);
+
+#endif /* GPIO_CB_H_ */

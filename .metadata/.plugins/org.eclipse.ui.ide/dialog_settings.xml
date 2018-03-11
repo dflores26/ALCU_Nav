@@ -5,6 +5,7 @@
 		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\ARTIK\IDE\v1\workspace\Project"/>
 			<item value="C:\Users\David\Desktop\gps_code"/>
 			<item value="C:\ARTIK\IDE\v1\workspace\TEST1"/>
 		</list>

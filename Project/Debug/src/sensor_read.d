@@ -44,7 +44,13 @@ src/sensor_read.o: ../src/sensor_read.c \
  C:/ARTIK/SDK/A053/v1.7/libsdk/typical/include/string.h \
  C:/ARTIK/SDK/A053/v1.7/libsdk/typical/include/stddef.h \
  C:/ARTIK/SDK/A053/v1.7/libsdk/typical/artik-sdk_include/base/artik_error.h \
- ../src/gpio.h ../src/distance.h ../src/vt_100.h
+ ../src/gpio.h ../src/distance.h ../src/vt_100.h \
+ C:/ARTIK/SDK/A053/v1.7/libsdk/typical/include/errno.h \
+ C:/ARTIK/SDK/A053/v1.7/libsdk/typical/include/fcntl.h \
+ C:/ARTIK/SDK/A053/v1.7/libsdk/typical/framework_include/iotbus/iotbus_gpio.h \
+ C:/ARTIK/SDK/A053/v1.7/libsdk/typical/framework_include/iotbus/iotbus_error.h \
+ C:/ARTIK/SDK/A053/v1.7/libsdk/typical/include/sys/mount.h \
+ C:/ARTIK/SDK/A053/v1.7/libsdk/typical/include/tinyara/arch.h
 
 C:/ARTIK/SDK/A053/v1.7/libsdk/typical/include/stdio.h:
 
@@ -141,3 +147,15 @@ C:/ARTIK/SDK/A053/v1.7/libsdk/typical/artik-sdk_include/base/artik_error.h:
 ../src/distance.h:
 
 ../src/vt_100.h:
+
+C:/ARTIK/SDK/A053/v1.7/libsdk/typical/include/errno.h:
+
+C:/ARTIK/SDK/A053/v1.7/libsdk/typical/include/fcntl.h:
+
+C:/ARTIK/SDK/A053/v1.7/libsdk/typical/framework_include/iotbus/iotbus_gpio.h:
+
+C:/ARTIK/SDK/A053/v1.7/libsdk/typical/framework_include/iotbus/iotbus_error.h:
+
+C:/ARTIK/SDK/A053/v1.7/libsdk/typical/include/sys/mount.h:
+
+C:/ARTIK/SDK/A053/v1.7/libsdk/typical/include/tinyara/arch.h:
