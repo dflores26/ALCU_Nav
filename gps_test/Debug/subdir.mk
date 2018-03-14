@@ -5,15 +5,18 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../._main.c \
-../hello_main.c 
+../hello_main.c \
+../interrupt_test.c 
 
 OBJS += \
 ./._main.o \
-./hello_main.o 
+./hello_main.o \
+./interrupt_test.o 
 
 C_DEPS += \
 ./._main.d \
-./hello_main.d 
+./hello_main.d \
+./interrupt_test.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

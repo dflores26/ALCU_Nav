@@ -1,6 +1,27 @@
-12:37:00 **** Incremental Build of configuration Debug for project gps_test ****
+14:43:41 **** Incremental Build of configuration Debug for project gps_test ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../interrupt_test.c
+Invoking: ARTIK GCC C Compiler
+arm-none-eabi-gcc  -D__TINYARA__ -I"C:/ARTIK/SDK/A053/v1.7/libsdk/typical/include" -I"C:/ARTIK/SDK/A053/v1.7/libsdk/typical/include/apps" -I"C:/ARTIK/SDK/A053/v1.7/libsdk/typical/framework_include" -I"C:/ARTIK/SDK/A053/v1.7/libsdk/typical/apps_include" -I"C:/ARTIK/SDK/A053/v1.7/libsdk/typical/apps_include/netutils" -I"C:/ARTIK/SDK/A053/v1.7/libsdk/typical/artik-sdk_include" -I"C:/ARTIK/SDK/A053/v1.7/libsdk/typical/artik-sdk_include/base" -I"C:/ARTIK/SDK/A053/v1.7/libsdk/typical/artik-sdk_include/connectivity" -I"C:/ARTIK/SDK/A053/v1.7/libsdk/typical/artik-sdk_include/systemio" -I"C:/ARTIK/SDK/A053/v1.7/libsdk/typical/artik-sdk_include/wifi" -I"C:/ARTIK/SDK/A053/v1.7/libsdk/typical/artik-sdk_include/lwm2m" -I"C:/ARTIK/SDK/A053/v1.7/libsdk/typical/artik-sdk_include/mqtt" -std=gnu99 -O0 -ffunction-sections -fdata-sections -fno-builtin -fno-strict-aliasing -fno-strength-reduce -fomit-frame-pointer -Wstrict-prototypes -Wshadow -Wno-implicit-function-declaration -Wno-unused-function -Wno-unused-but-set-variable -DAPP_STACKSIZE=18432 -DAPP_PRIORITY=100 -mcpu=cortex-r4 -mfpu=vfpv3 -g -MMD -MP -MF"interrupt_test.d" -MT"interrupt_test.o" -c -o "interrupt_test.o" "../interrupt_test.c"
+Finished building: ../interrupt_test.c
+ 
+Building target: gps_test
+Invoking: ARTIK GCC C Linker
+arm-none-eabi-ld  -T"C:/ARTIK/SDK/A053/v1.7/common/scripts/flash.ld" -nostartfiles -nodefaultlibs -L"C:/ARTIK/SDK/A053/v1.7/libsdk/typical/libs" -L"C:/ARTIK/toolchains/gcc-arm-none-eabi/v4.9-2015q3/lib/gcc/arm-none-eabi/4.9.3" -Map="gps_test.map" --gc-sections -u _printf_float --entry=__start "C:/ARTIK/SDK/A053/v1.7/libsdk/typical/libs/arm_vectortab.o" -o "gps_test" --start-group  ./src/gps.o ./src/gps_app.o  ./._main.o ./hello_main.o ./interrupt_test.o   -lnet -lframework -lkernel -lboard -lc -lmm -larch -lispdriver -lartik-sdk -lexternal -lapps -lfs -laudio -ldrivers -lgcc --end-group
+Finished building target: gps_test
+ 
+/usr/bin/make --no-print-directory post-build
+echo "Next step is to generate .bin file"
+Next step is to generate .bin file
+ 
+Invoking: ARTIK GCC Create Flash Image
+arm-none-eabi-objcopy -O binary "gps_test"  "tinyara.bin"
+Finished building: tinyara.bin
+ 
+Invoking: ARTIK GCC Create Head Bin
+C:/ARTIK/SDK/A053/v1.7/common/tools/s5jchksum.py "tinyara.bin"  "tinyara_head.bin"
+Finished building: tinyara_head.bin
+ 
 
-12:37:00 Build Finished (took 104ms)
+14:43:43 Build Finished (took 1s.965ms)
 

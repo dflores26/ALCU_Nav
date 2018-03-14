@@ -57,6 +57,10 @@
 #include <tinyara/config.h>
 #include <stdio.h>
 #include <apps/shell/tash.h>
+#include <iotbus/iotbus_gpio.h>
+#include <iotbus/iotbus_error.h>
+#include <sys/mount.h>
+#include <tinyara/arch.h>
 
 
 /****************************************************************************
@@ -65,6 +69,8 @@
 
 int nav_app_main(int argc, FAR char *argv[]){
 
+	//iotapi_initialize(); //basically the interrupt system
+	//gpio_setup();
 	nav_main(argc, argv);
 
 	return 0;

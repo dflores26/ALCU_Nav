@@ -63,17 +63,17 @@
  * hello_main
  ****************************************************************************/
 
-int gps_app_main(int argc, FAR char *argv[]){
+//int gps_app_main(int argc, FAR char *argv[]){
 
-	gps_main(argc, argv);
+//	gps_main(argc, argv);
 
-	return 0;
-}
+//	return 0;
+//}
 
-int main(int argc, FAR char *argv[]){
-#ifdef CONFIG_TASH
-	tash_cmd_install("gps", gps_app_main, TASH_EXECMD_SYNC);
-#endif
-	gps_app_main(argc,argv);
-	return 0;
-}
+//int main(int argc, FAR char *argv[]){
+//#ifdef CONFIG_TASH
+//	tash_cmd_install("gps", gps_app_main, TASH_EXECMD_SYNC);
+//#endif
+//	gps_app_main(argc,argv);
+//	return 0;
+//}

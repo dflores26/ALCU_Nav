@@ -36,7 +36,12 @@ hello_main.o: ../hello_main.c \
  C:/ARTIK/SDK/A053/v1.7/libsdk/typical/include/syslog.h \
  C:/ARTIK/SDK/A053/v1.7/libsdk/typical/include/tinyara/mm/gran.h \
  C:/ARTIK/SDK/A053/v1.7/libsdk/typical/include/tinyara/net/net.h \
- C:/ARTIK/SDK/A053/v1.7/libsdk/typical/include/apps/shell/tash.h
+ C:/ARTIK/SDK/A053/v1.7/libsdk/typical/include/apps/shell/tash.h \
+ C:/ARTIK/SDK/A053/v1.7/libsdk/typical/framework_include/iotbus/iotbus_gpio.h \
+ C:/ARTIK/SDK/A053/v1.7/libsdk/typical/framework_include/iotbus/iotbus_error.h \
+ C:/ARTIK/SDK/A053/v1.7/libsdk/typical/include/errno.h \
+ C:/ARTIK/SDK/A053/v1.7/libsdk/typical/include/sys/mount.h \
+ C:/ARTIK/SDK/A053/v1.7/libsdk/typical/include/tinyara/arch.h
 
 C:/ARTIK/SDK/A053/v1.7/libsdk/typical/include/tinyara/config.h:
 
@@ -113,3 +118,13 @@ C:/ARTIK/SDK/A053/v1.7/libsdk/typical/include/tinyara/mm/gran.h:
 C:/ARTIK/SDK/A053/v1.7/libsdk/typical/include/tinyara/net/net.h:
 
 C:/ARTIK/SDK/A053/v1.7/libsdk/typical/include/apps/shell/tash.h:
+
+C:/ARTIK/SDK/A053/v1.7/libsdk/typical/framework_include/iotbus/iotbus_gpio.h:
+
+C:/ARTIK/SDK/A053/v1.7/libsdk/typical/framework_include/iotbus/iotbus_error.h:
+
+C:/ARTIK/SDK/A053/v1.7/libsdk/typical/include/errno.h:
+
+C:/ARTIK/SDK/A053/v1.7/libsdk/typical/include/sys/mount.h:
+
+C:/ARTIK/SDK/A053/v1.7/libsdk/typical/include/tinyara/arch.h:

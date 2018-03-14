@@ -23,6 +23,9 @@
 //External Interrupt Pin
 #define EXINT0 57
 
+//Definition for beeper
+#define BACK_UP 37
+
 
 void navigate(long distance_L, long distance_M, long distance_R){
 
@@ -79,7 +82,7 @@ void navigate(long distance_L, long distance_M, long distance_R){
 		gpio_write(BLUE_LED, HIGH);
 		gpio_write(Right_LED, LOW);
 		gpio_write(Left_LED, LOW);
-
+		gpio_write(BACK_UP, LOW);
 		vt_cursor_pos(30, 98);
 		printf("%ld   ", distance_L);//40+13
 		vt_cursor_pos(32, 100);
@@ -98,6 +101,7 @@ void navigate(long distance_L, long distance_M, long distance_R){
 		gpio_write(BLUE_LED, LOW);
 		gpio_write(Right_LED, HIGH);
 		gpio_write(Left_LED, LOW);
+		gpio_write(BACK_UP, LOW);
 		vt_cursor_pos(30, 98);
 		printf("%ld   ", distance_L);//40+13
 		vt_cursor_pos(32, 100);
@@ -116,6 +120,7 @@ void navigate(long distance_L, long distance_M, long distance_R){
 		gpio_write(BLUE_LED, LOW);
 		gpio_write(Right_LED, LOW);
 		gpio_write(Left_LED, HIGH);
+		gpio_write(BACK_UP, LOW);
 		vt_cursor_pos(30, 98);
 		printf("%ld   ", distance_L);//40+13
 		vt_cursor_pos(32, 100);
@@ -133,6 +138,7 @@ void navigate(long distance_L, long distance_M, long distance_R){
 		gpio_write(BLUE_LED, LOW);
 		gpio_write(Right_LED, HIGH);
 		gpio_write(Left_LED, LOW);
+		gpio_write(BACK_UP, LOW);
 		vt_cursor_pos(30, 98);
 		printf("%ld   ", distance_L);//40+13
 		vt_cursor_pos(32, 100);
@@ -152,6 +158,7 @@ void navigate(long distance_L, long distance_M, long distance_R){
 		gpio_write(MID_LED, LOW);
 		gpio_write(Left_LED, LOW);
 		gpio_write(BLUE_LED, LOW);
+		gpio_write(BACK_UP, HIGH);
 		vt_cursor_pos(30, 98);
 		printf("%ld   ", distance_L);//40+13
 		vt_cursor_pos(32, 100);
